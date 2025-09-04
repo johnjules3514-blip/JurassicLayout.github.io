@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    padding: 1rem; 
+}
+h1 {
+    font-family: "Geologica", sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+}
+h2 {
+    border-bottom: 4px groove #ff9000;
+    padding-bottom: 0.5em;
+    font-size: 1.8rem;
+}
+.intro {
+    background-color: #b8911367;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 14px;
+}
+.card p {
+    font-size: 1.1rem; 
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+}
+.card {
+    flex: 1 1 300px; 
+    background-color: #b8911367;
+    padding: 1.5rem; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.styled-list {
+    list-style-type: square;
+    padding-left: 1.5rem; 
+}
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #e6bd65d0;
+}
+.pseudo-link {
+    background-image: url(Jules.jpg);
+    background-size: 400px 500px;
+    width: 400px;
+    height: 500px;
+}
+.pseudo-link:hover {
+    background-image: url(transfrom.jpg);
+    background-size: 400px 500px;
+    max-width: 400px;
+    height: 500px;
+}
+.generated-content::before {
+    content: "HEADS UP! ";
+    color: #d9534f;
+    font-style: italic;
+}
+.Boarder {
+    border-radius: 30px;
+    border-color: #ff9000;
+    border-style: groove;
+    border-width: 10px;
+}
+.pic1 {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+.pic2 {
+    margin-bottom: 10px;
+}
+#card {
+    flex: 1 1 300px;
+    background-color: #e6bd65d0;
+    padding: 1.5rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
